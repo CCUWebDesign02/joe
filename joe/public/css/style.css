@@ -1,60 +1,98 @@
 * {
     font-family: "Microsoft JhengHei";
 }
-
 header .row:first-child .col-12 {
     background-color: #e9eb87;
     height: 200px;
     width: 100%;
 }
-
 header .row:last-child .col-12 {
     background-color: #e2dbbe;
     height: 60px;
     font-weight: bold;
 }
-
-header .row:last-child .col-12 a {
+header .row:last-child .col-12 a{
     color: black;
     font-size: 24px;
 }
-
-header .row:last-child .col-12 a:hover {
+header .row:last-child .col-12 a:hover{
     color: #188fa7;
 }
-
 .logo {
     padding-top: 20px;
 }
-
 .logo span:nth-child(1) {
     font-size: 32px;
 }
-
 .logo span:nth-child(2) {
     font-size: 44px;
 }
-
 .logo span:nth-child(3) {
     font-size: 28px;
 }
 
-.social_icon {
-    margin: 32px 20px 43px 20px;
+.col-4{
+    margin-top: 5%;
 }
 
-.social_icon:first-child {
-    margin-left: 0px;
+.col-4 .row{
+    display: flex;
+    justify-content: center;
+    align-content: center;  
 }
 
-.social_icon:last-child {
-    margin-right: 0px;
-}
+ul.socialIcons {
+    padding: 0;
+    text-align: right;  
+  }
+  
+.socialIcons li {
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+    padding-bottom: -10%;
+  }
+  
+.socialIcons li a {
+    display: block;
+    padding: 0.5em;
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    white-space: nowrap;
+    line-height: 1.5em; 
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+  }
+  
+.socialIcons li i {
+    margin-right: 1.5em;
+    margin-left: 0.1em;
+  }
+  
+.socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  
+.socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+  }
 
-.social_icon img {
-    width: 55px;
-    height: 55px;
-}
+.socialIcons .twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+  }
+  
+.socialIcons .instagram {
+    background-color: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+  }
 
 .btn-top {
     background-color: #d56f3e;
@@ -66,118 +104,93 @@ header .row:last-child .col-12 a:hover {
     font-weight: bold;
     cursor: pointer;
 }
-
 .btn-top:first-child {
     margin-left: 0px;
 }
-
 .btn-top:last-child {
     margin-right: 0px;
 }
-
 .btn-top:hover {
     border: 2px solid white;
     background-color: #188fa7;
     color: white;
 }
-
 .carousel-item img {
     width: 100%;
 }
-
 .now-release {
     padding: 45px 0px;
 }
-
-.now-release>div>img {
+.now-release > div > img {
     width: 280px;
     height: 400px;
 }
-
 .titlebar {
     font-size: 28px;
 }
-
 .titlebar hr {
     padding-bottom: 43px;
 }
-
 .movie-title a {
     color: #000;
     text-decoration: none;
 }
-
 .movie-title a:hover {
     color: #188fa7;
 }
-
 .now-release .media {
     padding-top: 32px;
 }
-
 .now-release .media img {
     width: 110px;
 }
-
 .now-release .media-body {
     padding-left: 20px;
     font-size: 24px;
 }
-
 .future-release {
     font-size: 20px;
 }
-
 .future-release img {
     width: 280px;
     height: 400px;
 }
-
 .future-release .movie-title {
     padding-top: 18px;
 }
-
 .motd table {
     width: 600px;
     font-size: 18px;
 }
-
 .motd tr {
     cursor: pointer;
 }
-
 .motd tr:hover {
     color: #188fa7;
 }
-
 .motd tr:not(:last-child) {
     border-bottom: 1px solid black;
 }
-
 .motd td {
     padding: 8px 0px;
 }
-
-.motd tr:first-child td {
+.motd tr:first-child td{
     padding-top: 0px;
 }
-
 .motd td:first-child {
     padding-right: 27px;
     text-align: center;
 }
-
 footer .row {
     background-color: #e9eb87;
     height: 180px;
     font-size: 1rem;
     margin-top: 26px;
 }
-
 footer a {
     color: black;
-    text-decoration: underline;
-}
+    text-decoration:underline;
+}  
 
 #login-popup-box .popbox {
   border-style: solid;
@@ -221,12 +234,37 @@ footer a {
   cursor: pointer;
 }
 
+#aboutrow{
+    padding: 0px 40px;
+    
+}
+
+#clearfix{
+    margin: 20px 20px;
+}
+
+
+#infor{
+    color: rgb(22,20,22);
+    font-size: 26px;
+    padding: 20px 0px 0px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+#about{
+    text-transform: uppercase;
+    color: rgb(22, 20, 22);
+    font-size: 16px;
+    padding: 5px 0px 0px;
+    line-height: 1;
+}
+
 /*Check time*/
 .find{
     width:100%; 
     height:3500px;
     padding:10px;
-    background-color:rgb(237, 222, 238);
     font-weight: bold;
 }
 .check{
@@ -262,12 +300,11 @@ appear:hover + .mposition {
 .inproduce{
     width:100%; 
     padding:5%;
-    background-color:rgb(244, 240, 245);
     font-weight: bold;
 }
 .buying{
     width:80%;
-    height:20%;
+    height:100%;
     border-style:solid;
     border-color: #0092c7;
     margin: auto;
@@ -315,3 +352,4 @@ appear:hover + .mposition {
     position: relative;
     margin: auto;
 }
+/***************/
