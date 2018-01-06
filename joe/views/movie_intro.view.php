@@ -43,7 +43,7 @@
         </div>
         <div class="col-md-6">
           <h2 align="left" style="line-height: 40px">電影預告</h2><br>
-          <iframe width="550px" height="300px" src="https://www.youtube.com/embed/JmSU0ZjjjXM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          <iframe width="490px" height="300px" src="https://www.youtube.com/embed/JmSU0ZjjjXM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
         </div>
        </div>
    </div>
