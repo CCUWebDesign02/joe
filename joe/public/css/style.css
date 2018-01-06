@@ -1,0 +1,222 @@
+* {
+    font-family: "Microsoft JhengHei";
+}
+
+header .row:first-child .col-12 {
+    background-color: #e9eb87;
+    height: 200px;
+    width: 100%;
+}
+
+header .row:last-child .col-12 {
+    background-color: #e2dbbe;
+    height: 60px;
+    font-weight: bold;
+}
+
+header .row:last-child .col-12 a {
+    color: black;
+    font-size: 24px;
+}
+
+header .row:last-child .col-12 a:hover {
+    color: #188fa7;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.logo span:nth-child(1) {
+    font-size: 32px;
+}
+
+.logo span:nth-child(2) {
+    font-size: 44px;
+}
+
+.logo span:nth-child(3) {
+    font-size: 28px;
+}
+
+.social_icon {
+    margin: 32px 20px 43px 20px;
+}
+
+.social_icon:first-child {
+    margin-left: 0px;
+}
+
+.social_icon:last-child {
+    margin-right: 0px;
+}
+
+.social_icon img {
+    width: 55px;
+    height: 55px;
+}
+
+.btn-top {
+    background-color: #d56f3e;
+    width: 110px;
+    height: 35px;
+    margin: 0px 12.5px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-top:first-child {
+    margin-left: 0px;
+}
+
+.btn-top:last-child {
+    margin-right: 0px;
+}
+
+.btn-top:hover {
+    border: 2px solid white;
+    background-color: #188fa7;
+    color: white;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.now-release {
+    padding: 45px 0px;
+}
+
+.now-release>div>img {
+    width: 280px;
+    height: 400px;
+}
+
+.titlebar {
+    font-size: 28px;
+}
+
+.titlebar hr {
+    padding-bottom: 43px;
+}
+
+.movie-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.movie-title a:hover {
+    color: #188fa7;
+}
+
+.now-release .media {
+    padding-top: 32px;
+}
+
+.now-release .media img {
+    width: 110px;
+}
+
+.now-release .media-body {
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.future-release {
+    font-size: 20px;
+}
+
+.future-release img {
+    width: 280px;
+    height: 400px;
+}
+
+.future-release .movie-title {
+    padding-top: 18px;
+}
+
+.motd table {
+    width: 600px;
+    font-size: 18px;
+}
+
+.motd tr {
+    cursor: pointer;
+}
+
+.motd tr:hover {
+    color: #188fa7;
+}
+
+.motd tr:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.motd td {
+    padding: 8px 0px;
+}
+
+.motd tr:first-child td {
+    padding-top: 0px;
+}
+
+.motd td:first-child {
+    padding-right: 27px;
+    text-align: center;
+}
+
+footer .row {
+    background-color: #e9eb87;
+    height: 180px;
+    font-size: 1rem;
+    margin-top: 26px;
+}
+
+footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+#login-popup-box .popbox {
+  border-style: solid;
+  background-color: rgb(242, 242, 242);
+}
+#login-popup-box .wrapper {
+  border-style: solid;
+  border-color: rgb(208, 206, 206);
+  color: gray;
+  background-color: white;
+}
+#login-popup-box input {
+  border-style: none;
+  outline: none;
+}
+#login-popup-box .popbox a {
+  color: rgb(255, 0, 0);
+}
+#login-popup-box .login-btn {
+  background-color: rgb(255, 195, 5);
+  border-color: rgb(208, 206, 206);
+  border-style: solid;
+  border-size: 1px;
+  color: white;
+  cursor: pointer;
+}
+#login-popup-box .modal-dialog .modal-content{
+  background-color: rgb(242, 242, 242);
+  border-style: solid;
+  border-color: rgb(208, 206, 206);
+  border-width: 3px;
+  border-radius: 0;
+}
+#login-popup-box .modal-dialog .modal-header {
+  border-style: none;
+}
+#login-popup-box .modal-dialog .close {
+  position: relative;
+  top: 0rem;
+  left: -2rem;
+  cursor: pointer;
+}
